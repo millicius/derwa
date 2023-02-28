@@ -86,13 +86,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: linear-gradient(to right top, #ffffff, #fbfbfb, #f7f6f7, #f4f1f2, #f0eded);
 }
 
 a {
@@ -104,4 +98,13 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+img.obals {
+  border-radius: 50%;
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
 }
