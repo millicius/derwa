@@ -1,9 +1,6 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from './page.module.css'
-import FormBox from './components/FormBox'
-import Comments from './components/Comments'
-
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +14,6 @@ export default function Home() {
         alt='drw'
       />
       <h1 className={inter.className}>Labas! Ką veiki?</h1>
-      <div>
-        <FormBox />
-        <Comments />
-      </div>
     </main>
   )
 }
